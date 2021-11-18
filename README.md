@@ -52,3 +52,62 @@
 * Dengs FOC V3.0 DIY资料：BOM、原理图、PCB、Gerber
 * Dengs FOC V3.0 测试例程：14个灯哥开源FOC开环、闭环、应用方面的测试视频
 * 灯哥开源 FOC 使用文档 PDF：**配置的详细方式和使用教程**
+
+----------
+
+#Deng open source FOC dual brushless motor controller
+
+Deng open source FOC controller is an open source by Deng, based on Apache 2.0 open source protocol and ESP32 master control of low-cost brushless motor dual-way FOC drive control board. Dual total power 240W, single maximum power 120W, support most of the head motor FOC position, speed, torque open and closed loop control. Encoder support common IIC and ABI, PWM system. ** Add online current detection module, to achieve a truly complete FOC control **. Overall, Deng open source FOC controller is a good and cheap dual brushless FOC driver, click to see [effect video](https://www.bilibili.com/video/BV1Hz4y127FL/).
+
+The current development of Deng open source brushless FOC is deeply supported by the Deng open source team, which has now developed [Deng open source brushless quadruped robot](https://github.com/ToanTech/py-apple-bldc-quadruped-robot) for this control board. DIY video and effect see: [B site](https://www.bilibili.com/video/BV1kV411i76z/), the subsequent brushless balance car, inverted pendulum and so on running examples launched, please pay attention.
+
+* ** currently the main control board has been on Taobao, is welded and debugged finished products, for sale that includes ESP32**; need everyone can hit the [Taobao link](https://item.taobao.com/item.htm?spm=a230r.1.14.9.34c9688aRXg2O6&id=) 638363654504&ns=1&abbucket=20#detail)
+
+* open source work is not easy, I hope you more Star ,video more a key triple!
+
+! [image1](pic/PAFOC_front_v3.jpg)
+
+## 1 Software features (support SimpleFOC library 2.1.1)
+
+  As the first team to introduce SimpleFOC in China, we have been working to deeply improve the SimpleFOC hardware to localize it and allow everyone to play with brushless FOC algorithms at a low price.SimpleFOC is a powerful open source library that supports open and closed loop torque, speed, and position control of brushless motors with the following specific features.
+
+- **Arduino-based**: runs on ESP32 Arduino
+
+- **open source**: all code and configuration documentation can be found at: [SimpleFOC documentation page](https://docs.simplefoc.com/)
+
+- **Lightweight**: Compared to drivers such as Odrive, the lighter weight software structure can help you learn and configure algorithms at high speed
+
+- **Rich control modes**: open/closed loop speed, position; and open loop torque based control; two FOC kernel algorithms
+
+- **Graphical configuration software**: The latest DengFOC supports the use of **SimpleFOC Studio** for motor parameter configuration, as shown in the figure below.
+
+  The configuration is shown in the following figure. [image1](pic/SimpleFOC_Studio.gif)
+
+## 2 Hardware Features
+
+| Description | Parameters
+| ---------------- | --------------------------------------------------------- |
+| Dimensions | 56*39 mm |
+| Input Voltage Type | DC DC |
+| Input Voltage | 12-24V |
+| Max. power | 120W for single circuit and 240W for double circuit
+| Number of motors supported | 2 |
+| Main control | ESP32 development board lolin32 lite on the bottom
+| Encoder support | IIC mode, ABI mode, PWM mode encoder (AS5600, AS5047, AS5048, etc.) |
+| Expansion interface | Serial port (can control FOC board through serial port)
+| Current detection reference voltage | 3.3V |
+| Current Detect Maximum Current | 3.3A |
+
+## 3 Community
+
+This FOC board community for a Q-group, welcome to join: ** open source FOC brushless driver exchange group Light Brother open source group number 778255240 **
+
+Any use problems and DIY problems will be here to do direct discussion answer
+
+## 4 Project file description
+
+* Dengs FOC V3.0 DIY material: BOM, schematic, PCB, Gerber
+* Dengs FOC V3.0 test routines : 14 Dengs open source FOC open-loop, closed-loop, application-related test videos
+* Dengs open source FOC using the document PDF: ** configuration details of the way and use the tutorial **
+
+Translated with www.DeepL.com/Translator (free version)
