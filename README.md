@@ -1,3 +1,5 @@
+[English Translation](https://github.com/samuk/Deng-s-foc-controller/blob/master/README.md#deng-open-source-foc-dual-brushless-motor-controller)
+
 # 灯哥开源FOC双路无刷电机控制器
 
 ​      灯哥开源 FOC 控制器是一个由灯哥开源的，基于Apache 2.0 开源协议和ESP32主控的低成本无刷电机双路FOC驱动控制板。双路总功率 240W，单路最大功率 120W，支持绝大部分的云台电机FOC 位置、速度、力矩开闭环控制。编码器方面支持常见IIC和ABI、PWM制式。**加入在线电流检测模块，实现真正完整的FOC控制**。总的来说， 灯哥开源 FOC 控制器是一个好用又便宜的双路无刷FOC驱动器，点击查看 [效果视频](https://www.bilibili.com/video/BV1Hz4y127FL/)。
