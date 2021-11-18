@@ -55,7 +55,7 @@
 
 ----------
 
-#Deng open source FOC dual brushless motor controller
+# Deng open source FOC dual brushless motor controller
 
 Deng open source FOC controller is an open source by Deng, based on Apache 2.0 open source protocol and ESP32 master control of low-cost brushless motor dual-way FOC drive control board. Dual total power 240W, single maximum power 120W, support most of the head motor FOC position, speed, torque open and closed loop control. Encoder support common IIC and ABI, PWM system. ** Add online current detection module, to achieve a truly complete FOC control **. Overall, Deng open source FOC controller is a good and cheap dual brushless FOC driver, click to see [effect video](https://www.bilibili.com/video/BV1Hz4y127FL/).
 
